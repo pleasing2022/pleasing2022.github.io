@@ -1,0 +1,134 @@
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+}
+
+.header .left {
+  float: left;
+}
+
+.header .right {
+  float: right;
+  width: 380px;
+  height: 50px;
+}
+
+.header .right li {
+  float: left;
+  height: 50px;
+  width: 60px;
+  font-size: 12px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.header .right .red a {
+  color: red;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.header .right #img {
+  margin-top: 8px;
+}
+
+hr {
+  /* height: 50px; */
+  /* margin-top: 50px; */
+  width: 100%;
+  border-color: rgba(250, 235, 215, 0.355);
+}
+
+.top-ad-box .ad {
+  float: left;
+}
+
+.top-ad-box .logo-box {
+  float: right;
+}
+
+.search {
+  height: 55px;
+  border-bottom: brown solid 3px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 150px;
+}
+
+.nav ul li {
+  height: 49px;
+  width: 70px;
+  line-height: 49px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.nav ul li a {
+  color: aliceblue;
+  font-size: 18px;
+  display: block;
+}
+
+.nav ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.content {
+  height: 50px;
+  position: relative;
+}
+
+h2 {
+  width: 120px;
+  height: 27px;
+  background: url('../images/hot.png') no-repeat;
+  float: left;
+  top: 11px;
+  border-radius: 17px;
+ position: absolute;
+  left: 170px;
+}
+
+.content ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 300px;
+}
+
+.content ul li {
+  width: 82px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+}
+
+.content ul li a{
+font-size: 17px;
+color: #191919;
+}
+
+.content ul li a:hover{
+  color: red;
+}
+
+.content .person{
+  float: left;
+  position: absolute;
+  bottom: -5px;
+}
